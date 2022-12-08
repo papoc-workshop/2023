@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    {% seo %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ 'assets/css/style.css?v=' | append: site.github.build_revision }}">
+  </head>
+  <body>
+    <header class="page-header" role="banner">
+      <h1 class="project-name">PaPoC 2022</h1>
+      <h2>9th Workshop on Principles and Practice of Consistency for Distributed Data</h2>
+      <h2 class="project-tagline">Tuesday, April 5th, 2022 - Organized in conjunction with <a href="https://2022.eurosys.org">EuroSys 2022</a></h2>
+      <a href="index.html" class="btn">Home</a>
+      <a href="cfp.html" class="btn">Call for Papers</a>
+      <a href="program.html" class="btn">Program</a>
+      <a href="committees.html" class="btn">Committees</a>
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+
+      <footer class="site-footer">
+        {% if site.github.is_project_page %}
+          <span class="site-footer-owner"><a href="{{ site.github.repository_url }}"> The PaPoC {{ site.github.repository_name }}</a> site is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
+        {% endif %}
+      </footer>
+    </main>
+
+    {% if site.google_analytics %}
+      <script type="text/javascript">
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', '{{ site.google_analytics }}', 'auto');
+        ga('send', 'pageview');
+      </script>
+    {% endif %}
+
+  </body>
+</html>

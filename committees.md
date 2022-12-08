@@ -8,13 +8,15 @@ title: Committees
 * Pierre Sutra, Telecom SudParis, France
 
 **Program Committee**
-* ? Mathieu Perrin / Achour Mostefaoui, Nantes University, France
-* Fernando Pedone, Università della Svizzera italiana, Switzerland
-* ? Zarko Milosevic, Informal Systems, Canada
-* Cesara Dragoi, Amazon, USA
-* Kyle Kingsbury, Jepsen, USA
-* Shuai Mu, Stony Brook University, USA
-* Natacha Crooks, University of California, Berkeley, USA
+* TBD
+<!-- * ? Mathieu Perrin / Achour Mostefaoui, Nantes University, France -->
+<!-- * Fernando Pedone, Università della Svizzera italiana, Switzerland -->
+<!-- * ? Zarko Milosevic, Informal Systems, Canada -->
+<!-- * Cesara Dragoi, Amazon, USA -->
+<!-- * Kyle Kingsbury, Jepsen, USA -->
+<!-- * Shuai Mu, Stony Brook University, USA -->
+<!-- * Natacha Crooks, University of California, Berkeley, USA -->
+
 
 **Steering Committee**
 * Peter Bailis (Stanford University, USA)

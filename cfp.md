@@ -1,6 +1,7 @@
 ---
 title: Call for Papers
 ---
+
 # Call for Papers
 
 Consistency is one of the fundamental issues of distributed computing. 

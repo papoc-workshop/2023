@@ -4,24 +4,17 @@ title: Committees
 # Committees
 
 **Program Chairs**
-* Adriana Szekeres, VMware Research, USA
-* KC Sivaramakrishnan, Indian Institute of Technology, Madras
+* Elisa Gonzalez Boix, Vrije Universiteit Brussel, Belgium
+* Pierre Sutra, Telecom SudParis, France
 
 **Program Committee**
-* Hagit Attiya, Technion, Israel
-* Sebastian Burckhardt, Microsoft Research, USA
-* Vasilis Gavrielatos, Huawei Research, UK
-* Alexey Gotsman, IMDEA Software Institute, Spain
-* Gowtham Kaki, University of Colorado, Boulder, USA
-* Akash Lal, Microsoft Research, India
-* João Leitão, NOVA-LINCS & NOVA University of Lisbon, Portugal
-* Jialin Li, NUS, Singapore
-* Hongjin Liang, Nanjing University, China
-* Mae Milano, University of California, Berkeley, USA
-* Madhavan Mukund, Chennai Mathematical Institute, India
-* Kartik Nagar, Indian Institute of Technology, Madras, India
-* Sreeja Nair, ADLINK Technology, France
-* Naveen Sharma, Google, USA
+* ? Mathieu Perrin / Achour Mostefaoui, Nantes University, France
+* Fernando Pedone, Università della Svizzera italiana, Switzerland
+* ? Zarko Milosevic, Informal Systems, Canada
+* Cesara Dragoi, Amazon, USA
+* Kyle Kingsbury, Jepsen, USA
+* Shuai Mu, Stony Brook University, USA
+* Natacha Crooks, University of California, Berkeley, USA
 
 **Steering Committee**
 * Peter Bailis (Stanford University, USA)

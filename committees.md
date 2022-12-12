@@ -18,6 +18,18 @@ title: Committees
 <!-- * Natacha Crooks, University of California, Berkeley, USA -->
 
 
+<!-- * Valter Balegas, ElectricSQL, UK/Portugal? -->
+<!-- * Vitor Enes, Teleport, USA/Portugal? -->
+<!-- * Gowtham Kaki, University of Colorado, Boulder, USA -->
+<!-- * Lindsey Kuper, University of California, USA -->
+<!-- * Mae Milano, University of California, USA -->
+<!-- * Ragnar Mogk, TU Darmstadt, Germany -->
+<!-- * Sreeja Nair, ADLINK Technology, France -->
+<!-- * Kartik Nagar, Indian Institute of Technology, Madras, India -->
+<!-- * Irene Zhang, Microsoft, USA -->
+<!-- * (as backup) Carla Ferreira, NOVA University of Lisbon, Portugal, Portugal -->
+
+
 **Steering Committee**
 * Peter Bailis (Stanford University, USA)
 * Carlos Baquero (HASLab, INESC TEC & University of Minho, Portugal)

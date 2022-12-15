@@ -16,7 +16,7 @@ title: Committees
 <!-- * Kyle Kingsbury, Jepsen, USA -->
 <!-- * Shuai Mu, Stony Brook University, USA -->
 <!-- * Natacha Crooks, University of California, Berkeley, USA -->
-
+<!-- * Xiaojian Liao, Tsinghua University, China -->
 
 <!-- * Valter Balegas, ElectricSQL, UK/Portugal? -->
 <!-- * Vitor Enes, Teleport, USA/Portugal? -->

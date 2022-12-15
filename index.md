@@ -14,7 +14,7 @@ PaPoC 2023 is a successor to previous workshops in this series
 [PaPoC 2018](https://papoc-workshop.github.io/2018/), 
 [PaPoC 2019](https://novasys.di.fct.unl.pt/conferences/papoc19/), 
 [PaPoC 2020](https://papoc-workshop.github.io/2020/),
-[PaPoC 2021](https://papoc-workshop.github.io/2021/)) and
+[PaPoC 2021](https://papoc-workshop.github.io/2021/) and
 [PaPoC 2022](https://papoc-workshop.github.io/2022/))
 which brought together researchers and practitioners in the areas of distributed systems, programming languages, databases, and concurrent programming.
 

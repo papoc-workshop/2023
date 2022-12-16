@@ -17,6 +17,7 @@ title: Committees
 <!-- * Shuai Mu, Stony Brook University, USA -->
 <!-- * Natacha Crooks, University of California, Berkeley, USA -->
 <!-- * Xiaojian Liao, Tsinghua University, China -->
+<!-- * Sreeja Nair, ADLINK Technology, France -->
 
 <!-- * Valter Balegas, ElectricSQL, UK/Portugal? -->
 <!-- * Vitor Enes, Teleport, USA/Portugal? -->
@@ -24,7 +25,6 @@ title: Committees
 <!-- * Lindsey Kuper, University of California, USA -->
 <!-- * Mae Milano, University of California, USA -->
 <!-- * Ragnar Mogk, TU Darmstadt, Germany -->
-<!-- * Sreeja Nair, ADLINK Technology, France -->
 <!-- * Kartik Nagar, Indian Institute of Technology, Madras, India -->
 <!-- * Irene Zhang, Microsoft, USA -->
 <!-- * (as backup) Carla Ferreira, NOVA University of Lisbon, Portugal, Portugal -->

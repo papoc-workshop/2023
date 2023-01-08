@@ -8,26 +8,25 @@ title: Committees
 * Pierre Sutra, Telecom SudParis, France
 
 **Program Committee**
-* TBD
 <!-- * ? Mathieu Perrin / Achour Mostefaoui, Nantes University, France -->
-<!-- * Fernando Pedone, Università della Svizzera italiana, Switzerland -->
+* Fernando Pedone, University of Lugano, Switzerland
 <!-- * ? Zarko Milosevic, Informal Systems, Canada -->
 <!-- * Cesara Dragoi, Amazon, USA -->
 <!-- * Kyle Kingsbury, Jepsen, USA -->
-<!-- * Shuai Mu, Stony Brook University, USA -->
+* Shuai Mu, Stony Brook University, USA
 <!-- * Natacha Crooks, University of California, Berkeley, USA -->
 <!-- * Xiaojian Liao, Tsinghua University, China -->
 <!-- * Sreeja Nair, ADLINK Technology, France -->
 
-<!-- * Valter Balegas, ElectricSQL, UK/Portugal? -->
-<!-- * Vitor Enes, Teleport, USA/Portugal? -->
-<!-- * Gowtham Kaki, University of Colorado, Boulder, USA -->
-<!-- * Lindsey Kuper, University of California, USA -->
+* Valter Balegas, Electric-SQL, UK
+* Vitor Enes, Teleport, Portugal
+* Gowtham Kaki, University of Colorado, Boulder, USA
+* Lindsey Kuper, University of California, USA
 <!-- * Mae Milano, University of California, USA -->
-<!-- * Ragnar Mogk, TU Darmstadt, Germany -->
-<!-- * Kartik Nagar, Indian Institute of Technology, Madras, India -->
+* Ragnar Mogk, TU Darmstadt, Germany
+* Kartik Nagar, Indian Institute of Technology, Madras, India
 <!-- * Irene Zhang, Microsoft, USA -->
-<!-- * (as backup) Carla Ferreira, NOVA University of Lisbon, Portugal, Portugal -->
+* Carla Ferreira, NOVA University of Lisbon, Portugal, Portugal
 
 
 **Steering Committee**

@@ -17,7 +17,6 @@ title: Committees
 <!-- * Natacha Crooks, University of California, Berkeley, USA -->
 <!-- * Xiaojian Liao, Tsinghua University, China -->
 <!-- * Sreeja Nair, ADLINK Technology, France -->
-
 * Valter Balegas, Electric-SQL, UK
 * Vitor Enes, Teleport, Portugal
 * Gowtham Kaki, University of Colorado, Boulder, USA

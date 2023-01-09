@@ -16,7 +16,7 @@ title: Committees
 * Shuai Mu, Stony Brook University, USA
 <!-- * Natacha Crooks, University of California, Berkeley, USA -->
 <!-- * Xiaojian Liao, Tsinghua University, China -->
-* Sreeja Nair, ADLINK Technology, France
+* Sreeja Nair, ZettaScale, France
 * Valter Balegas, Electric-SQL, UK
 * Vitor Enes, Teleport, Portugal
 * Gowtham Kaki, University of Colorado, Boulder, USA

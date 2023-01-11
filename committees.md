@@ -10,12 +10,8 @@ title: Committees
 **Program Committee**
 <!-- * ? Mathieu Perrin / Achour Mostefaoui, Nantes University, France -->
 * Fernando Pedone, University of Lugano, Switzerland
-<!-- * ? Zarko Milosevic, Informal Systems, Canada -->
-<!-- * Cesara Dragoi, Amazon, USA -->
-<!-- * Kyle Kingsbury, Jepsen, USA -->
 * Shuai Mu, Stony Brook University, USA
-<!-- * Natacha Crooks, University of California, Berkeley, USA -->
-<!-- * Xiaojian Liao, Tsinghua University, China -->
+* Xiaojian Liao, Tsinghua University, China
 * Sreeja Nair, ZettaScale, France
 * Valter Balegas, Electric-SQL, UK
 * Vitor Enes, Teleport, Portugal
@@ -24,7 +20,6 @@ title: Committees
 <!-- * Mae Milano, University of California, USA -->
 * Ragnar Mogk, TU Darmstadt, Germany
 * Kartik Nagar, Indian Institute of Technology, Madras, India
-<!-- * Irene Zhang, Microsoft, USA -->
 * Carla Ferreira, NOVA University of Lisbon, Portugal, Portugal
 
 

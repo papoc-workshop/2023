@@ -8,20 +8,20 @@ title: Committees
 * Pierre Sutra, Telecom SudParis, France
 
 **Program Committee**
-<!-- * ? Mathieu Perrin / Achour Mostefaoui, Nantes University, France -->
-* Fernando Pedone, University of Lugano, Switzerland
-* Shuai Mu, Stony Brook University, USA
-* Xiaojian Liao, Tsinghua University, China
-* Sreeja Nair, ZettaScale, France
-* Valter Balegas, Electric-SQL, UK
+* Valter Balegas, Electric-SQL
 * Vitor Enes, Teleport, Portugal
+* Carla Ferreira, NOVA University of Lisbon, Portugal, Portugal
 * Gowtham Kaki, University of Colorado, Boulder, USA
 * Lindsey Kuper, University of California, USA
-<!-- * Mae Milano, University of California, USA -->
+* Xiaojian Liao, Tsinghua University, China
 * Ragnar Mogk, TU Darmstadt, Germany
+* Shuai Mu, Stony Brook University, USA
 * Kartik Nagar, Indian Institute of Technology, Madras, India
-* Carla Ferreira, NOVA University of Lisbon, Portugal, Portugal
-
+* Sreeja Nair, ZettaScale
+* Fernando Pedone, University of Lugano, Switzerland
+* Jack Waughby, Neo4j
+<!-- * ? Mathieu Perrin / Achour Mostefaoui, Nantes University, France -->
+<!-- * Mae Milano, University of California, USA -->
 
 **Steering Committee**
 * Peter Bailis (Stanford University, USA)

@@ -9,8 +9,9 @@ title: Committees
 
 **Program Committee**
 * Valter Balegas, Electric-SQL
-* Vitor Enes, Teleport, Portugal
-* Carla Ferreira, NOVA University of Lisbon, Portugal, Portugal
+* Annette Bieniusa, University of Kaiserslautern-Landau, Germany
+* Vitor Enes, Teleport
+* Carla Ferreira, NOVA University of Lisbon, Portugal
 * Gowtham Kaki, University of Colorado, Boulder, USA
 * Lindsey Kuper, University of California, USA
 * Xiaojian Liao, Tsinghua University, China

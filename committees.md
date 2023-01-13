@@ -19,9 +19,9 @@ title: Committees
 * Shuai Mu, Stony Brook University, USA
 * Kartik Nagar, Indian Institute of Technology, Madras, India
 * Sreeja Nair, ZettaScale
+* Mathieu Perrin, University of Nantes, France
 * Fernando Pedone, University of Lugano, Switzerland
 * Jack Waughby, Neo4j
-<!-- * ? Mathieu Perrin / Achour Mostefaoui, Nantes University, France -->
 <!-- * Mae Milano, University of California, USA -->
 
 **Steering Committee**

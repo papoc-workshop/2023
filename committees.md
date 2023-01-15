@@ -21,7 +21,7 @@ title: Committees
 * Sreeja Nair, ZettaScale
 * Mathieu Perrin, University of Nantes, France
 * Fernando Pedone, University of Lugano, Switzerland
-* Jack Waughby, Neo4j
+* Jack Waudby, Neo4j 
 <!-- * Mae Milano, University of California, USA -->
 
 **Steering Committee**

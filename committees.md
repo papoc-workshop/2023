@@ -22,7 +22,6 @@ title: Committees
 * Fernando Pedone, University of Lugano, Switzerland
 * Mathieu Perrin, University of Nantes, France
 * Jack Waudby, Neo4j
-<!-- * Mae Milano, University of California, USA -->
 
 **Steering Committee**
 * Peter Bailis (Stanford University, USA)

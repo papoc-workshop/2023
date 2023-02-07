@@ -43,7 +43,7 @@ Submissions should be made [via HotCRP](https://papoc23.hotcrp.com/).
 All submissions should be written in English and provided in PDF format. 
 We suggest that you use the [ACM template for LaTeX or MS Word](https://www.acm.org/publications/proceedings-template), but this is not required.
 
-If using the LaTeX template, please use the following document class (which matches the [format used by EuroSys](https://github.com/papoc-workshop/2023)):
+If using the LaTeX template, please use the following document class (which matches the [format used by EuroSys](https://github.com/papoc-workshop/2023/welcome_acm_dl/)):  
 
     \documentclass[sigplan,review]{acmart}
 

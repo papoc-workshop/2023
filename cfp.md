@@ -28,7 +28,7 @@ The workshop is looking for contributions on the following, and associated, topi
 
 ## Details on submissions
 
-The PaPoC workshop invites short papers up to 6 pages (including references) discussing original contributions, experience reports, or work in progress reports (supported by initial validations). 
+The PaPoC workshop invites short papers **up to 6 pages** (including references) discussing original contributions, experience reports, or work in progress reports (supported by initial validations). 
 We also accept longer proposals, under the understanding that PC members are only expected to read the first six pages. 
 Submissions do not need to be anonymised.
 

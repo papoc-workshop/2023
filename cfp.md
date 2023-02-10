@@ -32,7 +32,7 @@ The PaPoC workshop invites short papers up to 6 pages (including references) dis
 We also accept longer proposals, under the understanding that PC members are only expected to read the first six pages. 
 Submissions do not need to be anonymised.
 
-Authors of accepted papers will have the opportunity to choose whether they want their papers published in ACM Digital Library (along with papers from other EuroSys workshops). 
+Authors of accepted papers **will have the opportunity** to choose whether they want their papers published in ACM Digital Library (along with papers from other EuroSys workshops). 
 In any case, accepted papers will be made available to participants of the workshop. 
 At least one author of each accepted submission is expected to present their work at the workshop, and to be available for discussions.
 

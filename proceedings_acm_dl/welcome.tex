@@ -1,11 +1,14 @@
-\documentclass[acmsmall,nonacm]{acmart}
+\documentclass[acmlarge,nonacm]{acmart}
 \usepackage{quoting}
 \usepackage{ragged2e}
+
+\pdfpagewidth=8.5in
+\pdfpageheight=11in
 
 \settopmatter{printfolios=false}
 
 \newenvironment{RCText}[1][2em]
-               {\begin{quoting}[leftmargin=#1,rightmargin=#1]\RaggedRight}
+               {\begin{quoting}[leftmargin=#1,rightmargin=.5cm]\RaggedRight}
                {\end{quoting}}
 
 \begin{document}
@@ -18,32 +21,33 @@
 \maketitle
 
 The 10th Workshop on Principles and Practice of Consistency for Distributed Data (PaPoC '23) took place on May 8th, 2023.
-Like the previous years, the PaPoC workshop was held in conjunction with EuroSys 2023.
+Like the previous years, the PaPoC workshop was held in conjunction with the EuroSys conference.
 A total of 14 papers where presented, 12 of them are in the proceedings.
 These papers were selected among 20 papers which were initially submitted to the workshop.
 
-This year edition was the 10th occurrent of the PaPoC workshop series.
-To celebrate this event, the organizers in agreement with the Steering Committee decided to give a Test-Of-Time award to an influencial paper that was published over the past 10 years at the workshop.
-A test-of-time award committee was formed for this occasion.
+This year edition was the tenth occurrence of the PaPoC workshop series.
+To celebrate this event, the organizers, in agreement with the Steering Committee, decided to give a Test-Of-Time award to an influential paper that was published over the past 10 years at the workshop.
+A Test-Of-Time Award Committee was formed for this occasion.
 The \href{http://www.bailis.org/blog/bridging-the-gap-opportunities-in-coordination-avoiding-databases/}{paper} they selected is:
 
 \medskip
 
-\begin{RCText}[.5cm]
+\begin{RCText}[2cm]
   \textit{Bridging the Gap: Opportunities in Coordination-Avoiding Database Systems} \\
   by Peter Bailis, Alan Fekete, Ali Ghodsi, Mike Franklin, Joe Hellerstein, and Ion Stoica.
 \end{RCText}
 
 \medskip
 
-It was presented at PaPoC 2014, held in conjunction with the Eurosys '14 conference, in Amsterdam, Netherlands.
+This paper was presented at PaPoC 2014, held in conjunction with the Eurosys '14 conference, in Amsterdam, Netherlands.
 This work was influential in challenging the common idea of using strong consistency levels as a one-size-fits-all solution.
 In this paper, the authors look at popular benchmarks and applications and investigate where coordination is actually needed, and where it can be avoided.
 An extended version of this paper was later presented at SIGMOD in 2014.
 
-The details of the program committee, Test-of-Time award committee and steering committee follow:
+The composition of the Program Committee and Test-of-Time Award Committee for PaPoc '23 are below.
+The Steering Committee for the PaPoC workshop series is also listed.
 
-\section*{Program committee}
+\section*{Program Committee}
 
 \begin{itemize}
 \item Valter Balegas, Electric-SQL
@@ -62,7 +66,7 @@ The details of the program committee, Test-of-Time award committee and steering 
 \item Jack Waudby, Neo4j
 \end{itemize}
 
-\section*{Test-of-Time award committee}
+\section*{Test-of-Time Award Committee}
 
 \begin{itemize}
 \item Alysson Bessani, University of Lisbon, Portugal
@@ -71,7 +75,7 @@ The details of the program committee, Test-of-Time award committee and steering 
 \item Marko Vukolic, Protocol Labs
 \end{itemize}
 
-\section*{Steering committee}
+\section*{Steering Committee}
 
 \begin{itemize}
 \item Peter Bailis, Sisu Data
@@ -86,6 +90,5 @@ The details of the program committee, Test-of-Time award committee and steering 
 \item Marc Shapiro, Sorbonne-Universités—LIP6 and Inria, France
 \item Justin Sheehy, Akamai Technologies
 \end{itemize}
-
 
 \end{document}

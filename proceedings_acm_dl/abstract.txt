@@ -1,0 +1,2 @@
+The PaPoC workshop investigates data consistency models, their operational characteristics and trade-offs. The 10th Workshop on Principles and Practice of Consistency for Distributed Data (PaPoC '23) follows the successful workshops in this series started in 2014. The workshop gathers researchers and practitioners in various areas ranging from distributed systems, programming languages, software verification and databases.
+

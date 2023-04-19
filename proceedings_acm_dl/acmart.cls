@@ -38,7 +38,7 @@
 
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{acmart}
-[2022/10/24 v1.88 Typesetting articles for the Association for Computing Machinery]
+[2023/03/30 v1.90 Typesetting articles for the Association for Computing Machinery]
 \def\@classname{acmart}
 \InputIfFileExists{acmart-preload-hook.tex}{%
   \ClassWarning{\@classname}{%
@@ -289,7 +289,10 @@
 \RequirePackage{textcase}
 \if@ACM@acmcp
 \RequirePackage{framed}
+\RequirePackage{zref-savepos, zref-user}
 \fi
+\newdimen\@ACM@acmcp@delta
+\@ACM@acmcp@delta=0pt\relax
 \if@ACM@natbib
   \RequirePackage{natbib}
   \renewcommand{\bibsection}{%
@@ -1087,6 +1090,7 @@
   JRC,%
   PACMCGIT,%
   PACMHCI,%
+  PACMMOD,%
   PACMNET,%
   PACMPL,%
   POMACS,%
@@ -1125,6 +1129,7 @@
   TOPC,%
   TOPS,%
   TOPLAS,%
+  TOPML,%
   TORS,%
   TOS,%
   TOSEM,%
@@ -1232,6 +1237,10 @@
   \def\@permissionCodeOne{2573-0142}%
   \@ACM@screentrue
   \PackageInfo{\@classname}{Using screen mode due to \@journalCode}%
+\or % PACMMOD
+  \def\@journalName{Proceedings of the ACM on Management of Data}%
+  \def\@journalNameShort{Proc. ACM Manag. Data}%
+  \def\@permissionCodeOne{2836-6573}%
 \or % PACMNET
   \def\@journalName{Proceedings of the ACM on Networkng}%
   \def\@journalNameShort{Proc. ACM Netw.}%
@@ -1392,6 +1401,10 @@
   \def\@journalName{ACM Transactions on Programming Languages and Systems}%
   \def\@journalNameShort{ACM Trans. Program. Lang. Syst.}%
   \def\@permissionCodeOne{0164-0925}%
+\or % TOPML
+  \def\@journalName{ACM Transactions on Probabilistic Machine Learning}%
+  \def\@journalNameShort{ACM Trans. Probab. Mach. Learn.}%
+  \def\@permissionCodeOne{2836-8924}%
 \or % TORS
   \def\@journalName{ACM Transactions on Recommender Systems}%
   \def\@journalNameShort{ACM Trans. Recomm. Syst.}%
@@ -1630,23 +1643,40 @@
 \acmISBN{978-x-xxxx-xxxx-x/YY/MM}
 \def\acmDOI#1{\def\@acmDOI{#1}}
 \acmDOI{10.1145/nnnnnnn.nnnnnnn}
-\newif\if@ACM@badge
-\@ACM@badgefalse
 \newlength\@ACM@badge@width
-\setlength\@ACM@badge@width{5pc}
+\setlength\@ACM@badge@width{3pc}
 \newlength\@ACM@title@width
 \newlength\@ACM@badge@skip
-\setlength\@ACM@badge@skip{1pc}
-\newcommand\acmBadgeR[2][]{\@ACM@badgetrue
-  \def\@acmBadgeR@url{#1}%
-  \def\@acmBadgeR@image{#2}}
-\def\@acmBadgeR@url{}
-\def\@acmBadgeR@image{}
-\newcommand\acmBadgeL[2][]{\@ACM@badgetrue
-  \def\@acmBadgeL@url{#1}%
-  \def\@acmBadgeL@image{#2}}
-\def\@acmBadgeL@url{}
-\def\@acmBadgeL@image{}
+\setlength\@ACM@badge@skip{1pt}
+\def\@acmBadgeR{}
+\def\@acmBadgeL{}
+\newcommand\acmBadgeR[2][]{%
+  \ifx\@acmBadgeR\@empty
+    \gdef\@acmBadgeR{%
+      \smash{%
+        \raisebox{0.5\height}{%
+          \href{#1}{\includegraphics[width=\@ACM@badge@width]{#2}}}}}%
+  \else
+    \g@addto@macro{\@acmBadgeR}{%
+      \hspace{\@ACM@badge@skip}%
+      \smash{%
+        \raisebox{0.5\height}{%
+          \href{#1}{\includegraphics[width=\@ACM@badge@width]{#2}}}}}%
+  \fi}
+\newcommand\acmBadgeL[2][]{%
+  \ifx\@acmBadgeL\@empty
+    \gdef\@acmBadgeL{%
+      \smash{%
+        \raisebox{0.5\height}{%
+          \href{#1}{\includegraphics[width=\@ACM@badge@width]{#2}}}}}%
+  \else
+    \g@addto@macro{\@acmBadgeL}{%
+      \hspace{\@ACM@badge@skip}%
+      \smash{%
+        \raisebox{0.5\height}{%
+          \href{#1}{\includegraphics[width=\@ACM@badge@width]{#2}}}}}%
+  \fi}
+\let\acmBadge=\acmBadgeR
 \def\startPage#1{\def\@startPage{#1}}
 \startPage{}
 \def\terms#1{\ClassWarning{\@classname}{The command \string\terms{} is
@@ -1744,13 +1774,16 @@
  \ClassError{\@classname}{Article Type must be Research, Review,\MessageBreak
    Discussion, Invited, or Position}}
 \def\acmArticleType#1{\setkeys{ACM}{articletype=#1}}
-\newenvironment{@ACM@color@frame}{%
-  \def\FrameCommand{\hspace*{-6.5pc}%
-    \colorbox{@ACM@Article@color!10!white}}%
-  \MakeFramed {\advance\hsize -6.5pc\relax\FrameRestore}}{\endMakeFramed}
 \if@ACM@acmcp
 \acmArticleType{Research}%
 \fi
+ %    \end{macrocode}
+\newenvironment{@ACM@color@frame}{%
+  \def\FrameCommand{\hspace*{-6.5pc}%
+    \colorbox{@ACM@Article@color!10!white}}%
+  \MakeFramed {\advance\hsize
+    -6.5pc\relax\FrameRestore}}{\zsaveposy{@ACM@acmcpframe@y}%
+  \endMakeFramed}
 \def\acmCodeLink#1{%
   \ifx\@acmCodeDataLink\@empty
      \gdef\@acmCodeDataLink{\url{#1}}%
@@ -2244,18 +2277,30 @@
 \def\set@ACM@acmcpbox{%
   \bgroup
   \hsize=5pc
-  \global\setbox\@ACM@acmcpbox=\vtop to \textheight{%
+  \global\setbox\@ACM@acmcpbox=\vbox{%
     \setlength{\parindent}{\z@}%
-    {\Large LOGO\par}%
+    {\includegraphics[width=\hsize]{acm-jdslogo}\par}%
     \scriptsize
-    \vfill
-    \ifx\@acmCodeDataLink\@empty\else
-    Code and data links:\\ \@acmCodeDataLink\par\vfill
+    \ifnum\getrefnumber{TotPages}>1\else
+      \zrefused{@ACM@acmcpbox@y}%
+      \zrefused{@ACM@acmcpframe@y}%
+      \@tempdima=\dimexpr\zposy{@ACM@acmcpbox@y}sp -
+      \zposy{@ACM@acmcpframe@y}sp+0.3\FrameSep+
+      \@ACM@acmcp@delta\relax
+      \ifdim\@tempdima>0pt\relax
+         \vspace*{\@tempdima}%
+         \protected@write\@auxout{}%
+         {\string\global\@ACM@acmcp@delta=\the\@tempdima\relax}%
+      \fi
     \fi
-    \ifx\@keywords\@empty\else Keywords:
-    \@keywords\par\vfill
+    \ifx\@acmCodeDataLink\@empty\else\bigskip
+    Code and data links:\\ \@acmCodeDataLink\par\bigskip
     \fi
-    \ifx\@empty\@authorsaddresses\else\@setauthorsaddresses\vfill\fi
+    \ifx\@keywords\@empty\else\bigskip
+      Keywords: \@keywords\par
+    \fi
+    \ifx\@empty\@authorsaddresses\else\bigskip\@setauthorsaddresses\fi
+    \zsaveposy{@ACM@acmcpbox@y}%
   }
 \egroup}
 \def\@specialsection#1{%
@@ -2327,18 +2372,6 @@
     \twocolumn[\box\mktitle@bx]%
   \or % sigchi-a
     \par\box\mktitle@bx\par\bigskip
-    \if@ACM@badge
-       \marginpar{\noindent
-         \ifx\@acmBadgeL@image\@empty\else
-           \href{\@acmBadgeL@url}{%
-             \includegraphics[width=\@ACM@badge@width]{\@acmBadgeL@image}}%
-            \hskip\@ACM@badge@skip
-          \fi
-         \ifx\@acmBadgeR@image\@empty\else
-           \href{\@acmBadgeR@url}{%
-             \includegraphics[width=\@ACM@badge@width]{\@acmBadgeR@image}}%
-          \fi}%
-    \fi
   \or % acmengage
     \twocolumn[\box\mktitle@bx]%
   \or % acmcp
@@ -2426,62 +2459,23 @@
     \advance\hsize by -6pc%
   \fi
   \@ACM@title@width=\hsize
-  \ifx\@acmBadgeL@image\@empty\else
-    \advance\@ACM@title@width by -\@ACM@badge@width
-    \advance\@ACM@title@width by -\@ACM@badge@skip
-  \fi
-  \ifx\@acmBadgeR@image\@empty\else
-    \advance\@ACM@title@width by -\@ACM@badge@width
-    \advance\@ACM@title@width by -\@ACM@badge@skip
-  \fi
   \setbox\mktitle@bx=\vbox{\noindent\@titlefont
-    \ifx\@acmBadgeL@image\@empty\else
-      \raisebox{-.5\baselineskip}[\z@][\z@]{\href{\@acmBadgeL@url}{%
-          \includegraphics[width=\@ACM@badge@width]{\@acmBadgeL@image}}}%
-      \hskip\@ACM@badge@skip
-    \fi
-    \if@ACM@acmcp
-    \vspace*{108.5\p@}\par\noindent
-    \fi
     \parbox[t]{\@ACM@title@width}{\raggedright
       \@titlefont\noindent
       \@title\@translatedtitle%
   \ifx\@subtitle\@empty\else
     \par\noindent{\@subtitlefont\@subtitle\@translatedsubtitle}%
   \fi}%
-  \ifx\@acmBadgeR@image\@empty\else
-    \hskip\@ACM@badge@skip
-    \raisebox{-.5\baselineskip}[\z@][\z@]{\href{\@acmBadgeR@url}{%
-        \includegraphics[width=\@ACM@badge@width]{\@acmBadgeR@image}}}%
-  \fi
   \par\bigskip}}%
 \def\@mktitle@iii{\hsize=\textwidth
     \setbox\mktitle@bx=\vbox{\@titlefont\centering
       \@ACM@title@width=\hsize
-      \if@ACM@badge
-        \advance\@ACM@title@width by -2\@ACM@badge@width
-        \advance\@ACM@title@width by -2\@ACM@badge@skip
-        \parbox[b]{\@ACM@badge@width}{\strut
-          \ifx\@acmBadgeL@image\@empty\else
-            \raisebox{-.5\baselineskip}[\z@][\z@]{\href{\@acmBadgeL@url}{%
-                \includegraphics[width=\@ACM@badge@width]{\@acmBadgeL@image}}}%
-          \fi}%
-        \hskip\@ACM@badge@skip
-      \fi
       \parbox[t]{\@ACM@title@width}{\centering\@titlefont
         \@title\@translatedtitle%
         \ifx\@subtitle\@empty\else
           \par\noindent{\@subtitlefont\@subtitle\@translatedsubtitle}
         \fi
       }%
-      \if@ACM@badge
-        \hskip\@ACM@badge@skip
-        \parbox[b]{\@ACM@badge@width}{\strut
-          \ifx\@acmBadgeR@image\@empty\else
-            \raisebox{-.5\baselineskip}[\z@][\z@]{\href{\@acmBadgeR@url}{%
-                \includegraphics[width=\@ACM@badge@width]{\@acmBadgeR@image}}}%
-          \fi}%
-      \fi
       \par\bigskip}}%
 \def\@mktitle@iv{\hsize=\textwidth
     \setbox\mktitle@bx=\vbox{\raggedright\leftskip5pc\@titlefont
@@ -3118,7 +3112,8 @@
   \if@ACM@journal@bibstrip
     \ifcase\ACM@format@nr
     \relax % manuscript
-      \fancyhead[L]{\ACM@linecountL}%
+      \fancyhead[L]{\ACM@linecountL\@acmBadgeL}%
+      \fancyhead[R]{\@acmBadgeR}%
       \fancyfoot[RO,LE]{\if@ACM@printfolios\small\thepage\fi}%
       \if@ACM@nonacm\else%
         \fancyfoot[RE,LO]{\footnotesize Manuscript submitted to ACM}%
@@ -3129,9 +3124,10 @@
         \@acmNumber, Article \@acmArticle.  Publication date:
         \@acmPubDate.}%
       \fi%
-      \fancyhead[LE]{\ACM@linecountL\@folioblob}%
-      \fancyhead[LO]{\ACM@linecountL}%
-      \fancyhead[RO]{\@folioblob}%
+      \fancyhead[LE]{\ACM@linecountL\@folioblob\@acmBadgeL}%
+      \fancyhead[LO]{\ACM@linecountL\@acmBadgeL}%
+      \fancyhead[RO]{\@acmBadgeR\@folioblob}%
+      \fancyhead[RE]{\@acmBadgeR}%
       \fancyheadoffset[RO,LE]{0.6\@folio@wd}%
     \or % acmlarge
       \if@ACM@nonacm\else%
@@ -3139,9 +3135,10 @@
         \@acmNumber, Article \@acmArticle.  Publication date:
         \@acmPubDate.}%
       \fi%
-      \fancyhead[RO]{\@folioblob}%
-      \fancyhead[LE]{\ACM@linecountL\@folioblob}%
-      \fancyhead[LO]{\ACM@linecountL}%
+      \fancyhead[RO]{\@acmBadgeR\@folioblob}%
+      \fancyhead[RE]{\@acmBadgeR}%
+      \fancyhead[LE]{\ACM@linecountL\@folioblob\@acmBadgeL}%
+      \fancyhead[LO]{\ACM@linecountL\@acmBadgeL}%
       \fancyheadoffset[RO,LE]{1.4\@folio@wd}%
     \or % acmtog
       \if@ACM@nonacm\else%
@@ -3149,16 +3146,16 @@
         \@acmNumber, Article \@acmArticle.  Publication date:
         \@acmPubDate.}%
       \fi%
-      \fancyhead[L]{\ACM@linecountL}%
-      \fancyhead[R]{\ACM@linecountR}%
+      \fancyhead[L]{\ACM@linecountL\@acmBadgeL}%
+      \fancyhead[R]{\@acmBadgeR\ACM@linecountR}%
     \else % Conference proceedings
-      \fancyhead[L]{\ACM@linecountL}%
-      \fancyhead[R]{\ACM@linecountR}%
+      \fancyhead[L]{\ACM@linecountL\@acmBadgeL}%
+      \fancyhead[R]{\@acmBadgeR\ACM@linecountR}%
       \fancyfoot[C]{\if@ACM@printfolios\footnotesize\thepage\fi}%
     \fi
   \else
-    \fancyhead[L]{\ACM@linecountL}%
-    \fancyhead[R]{\ACM@linecountR}%
+    \fancyhead[L]{\ACM@linecountL\@acmBadgeL}%
+    \fancyhead[R]{\@acmBadgeR\ACM@linecountR}%
     \fancyfoot[C]{\if@ACM@printfolios\footnotesize\thepage\fi}%
   \fi
   \if@ACM@timestamp
@@ -3178,8 +3175,8 @@
       \raisebox{-\dimexpr(0.25\textheight*\ACM@ArticleType@nr)}{%
       \rotatebox{90}{\colorbox{@ACM@Article@color}{\color{white}%
           \strut\ACM@ArticleType~Article}}}}%
-    \ACM@linecountL}%
-  \fancyhead[R]{\makebox[\z@][r]{\box\@ACM@acmcpbox}}%
+    \ACM@linecountL\@acmBadgeL}%
+  \fancyhead[R]{\@acmBadgeR\makebox[\z@][r]{\box\@ACM@acmcpbox}}%
   \fancyfoot[L,C]{}%
   \fancyfoot[R]{\footnotesize
     \@journalName, Volume~\@acmVolume, Issue~\@acmNumber,

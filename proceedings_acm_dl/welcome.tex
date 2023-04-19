@@ -1,0 +1,91 @@
+\documentclass[acmsmall,nonacm]{acmart}
+\usepackage{quoting}
+\usepackage{ragged2e}
+
+\settopmatter{printfolios=false}
+
+\newenvironment{RCText}[1][2em]
+               {\begin{quoting}[leftmargin=#1,rightmargin=#1]\RaggedRight}
+               {\end{quoting}}
+
+\begin{document}
+
+\title{Welcome}
+\author{Elisa Gonzalez Boix}
+\author{Pierre Sutra}
+\authorsaddresses{}
+\renewcommand{\shortauthors}{}
+\maketitle
+
+The 10th Workshop on Principles and Practice of Consistency for Distributed Data (PaPoC '23) took place on May 8th, 2023.
+Like the previous years, the PaPoC workshop was held in conjunction with EuroSys 2023.
+A total of 14 papers where presented, 12 of them are in the proceedings.
+These papers were selected among 20 papers which were initially submitted to the workshop.
+
+This year edition was the 10th occurrent of the PaPoC workshop series.
+To celebrate this event, the organizers in agreement with the Steering Committee decided to give a Test-Of-Time award to an influencial paper that was published over the past 10 years at the workshop.
+A test-of-time award committee was formed for this occasion.
+The \href{http://www.bailis.org/blog/bridging-the-gap-opportunities-in-coordination-avoiding-databases/}{paper} they selected is:
+
+\medskip
+
+\begin{RCText}[.5cm]
+  \textit{Bridging the Gap: Opportunities in Coordination-Avoiding Database Systems} \\
+  by Peter Bailis, Alan Fekete, Ali Ghodsi, Mike Franklin, Joe Hellerstein, and Ion Stoica.
+\end{RCText}
+
+\medskip
+
+It was presented at PaPoC 2014, held in conjunction with the Eurosys '14 conference, in Amsterdam, Netherlands.
+This work was influential in challenging the common idea of using strong consistency levels as a one-size-fits-all solution.
+In this paper, the authors look at popular benchmarks and applications and investigate where coordination is actually needed, and where it can be avoided.
+An extended version of this paper was later presented at SIGMOD in 2014.
+
+The details of the program committee, Test-of-Time award committee and steering committee follow:
+
+\section*{Program committee}
+
+\begin{itemize}
+\item Valter Balegas, Electric-SQL
+\item Annette Bieniusa, University of Kaiserslautern-Landau, Germany
+\item Vitor Enes, Teleport
+\item Carla Ferreira, NOVA University of Lisbon, Portugal
+\item Gowtham Kaki, University of Colorado, Boulder, USA
+\item Lindsey Kuper, University of California, Santa Cruz, USA
+\item Xiaojian Liao, Tsinghua University, China
+\item Ragnar Mogk, TU Darmstadt, Germany
+\item Shuai Mu, Stony Brook University, USA
+\item Kartik Nagar, Indian Institute of Technology, Madras, India
+\item Sreeja Nair, ZettaScale
+\item Fernando Pedone, University of Lugano, Switzerland
+\item Mathieu Perrin, University of Nantes, France
+\item Jack Waudby, Neo4j
+\end{itemize}
+
+\section*{Test-of-Time award committee}
+
+\begin{itemize}
+\item Alysson Bessani, University of Lisbon, Portugal
+\item Roberto Palmieri, Lehigh University, USA
+\item Marco Serafini, University of Massachusetts, Amherst, USA
+\item Marko Vukolic, Protocol Labs
+\end{itemize}
+
+\section*{Steering committee}
+
+\begin{itemize}
+\item Peter Bailis, Sisu Data
+\item Carlos Baquero, HASLab, INESC TEC and University of Minho, Portugal
+\item Annette Bieniusa, University of Kaiserslautern-Landau, Germany
+\item Carla Ferreira, NOVA University of Lisbon, Portugal
+\item Alexey Gotsman, IMDEA Software Institute, Spain
+\item Martin Kleppmann, Cambridge University, UK
+\item Heather Miller, Carnegie Mellon University, USA
+\item Nuno Preguiça, NOVA-LINCS and NOVA University of Lisbon, Portugal
+\item Marco Serafini, University of Massachusetts, Amherst, USA
+\item Marc Shapiro, Sorbonne-Universités—LIP6 and Inria, France
+\item Justin Sheehy, Akamai Technologies
+\end{itemize}
+
+
+\end{document}

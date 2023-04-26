@@ -14,7 +14,7 @@ _09:00, 10m_
 
 * **Keynote**
 Vijay Chidambaram (University of Texas, Austin)
-_08:30, 60m_
+_09:10, 60m_
 
 * **Probabilistic Causal Contexts for Scalable CRDTs** <!-- 75 -->
 Pedro Henrique Fernandes (ProDEI, Universidade do Porto & INESC TEC), Carlos Baquero (Universidade do Porto & INESC TEC)

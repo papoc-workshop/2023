@@ -20,7 +20,7 @@ TBA.
 
 <!-- * **Probabilistic Causal Contexts for Scalable CRDTs** <\!-- 75 -\-> -->
 <!-- Pedro Henrique Fernandes (ProDEI, Universidade do Porto & INESC TEC), Carlos Baquero (Universidade do Porto & INESC TEC) -->
-<!-- _10:10, 20m_ -->
+<!-- _10:10, 15m_ -->
 
 <!-- ## Coffee Break: 10:30 to 11:00 -->
 
@@ -28,27 +28,27 @@ TBA.
 
 <!-- * **Distributed Consensus Algorithms as Replicated State Applications** <\!-- 4 -\-> -->
 <!-- Nicholas V. Lewchenko (University of Colorado, Boulder), Gowtham Kaki (University of Colorado Boulder) -->
-<!-- _11:00, 20m_ -->
+<!-- _11:00, 15m_ -->
 
 <!-- * **Trees and Turtles: Modular Abstractions for State Machine Replication Protocols** <\!-- 45 -\-> -->
 <!-- Natalie Neamtu (Microsoft Corporation), Haobin Ni (Cornell University), Robbert van Renesse (Cornell University) -->
-<!-- _11:20, 20m_ -->
+<!-- _11:15, 15m_ -->
 
 <!-- * **Verify, And Then Trust: Data Inconsistency Detection in ZooKeeper** <\!-- 66 -\-> -->
 <!-- Sushant Mane (San José State University), Fangmin Lyu (Meta), Benjamin Reed (San José State University) -->
-<!-- _11:40, 20m_ -->
+<!-- _11:30, 15m_ -->
 
 <!-- * **Generic Checkpointing Support for Stream-based State-Machine Replication** <\!-- 70 -\-> -->
-<!-- Laura Lawniczak (Friedrich-Alexander-Universität Erlangen-Nürnberg), Marco Ammon (Friedrich-Alexander-Universität Erlangen-Nürnberg), Tobias Distler (Friedrich-Alexander-Universität Erlangen-Nürnberg)  -->
-<!-- _12:00, 20m_ -->
+<!-- Laura Lawniczak (Friedrich-Alexander-Universität Erlangen-Nürnberg), Marco Ammon (Friedrich-Alexander-Universität Erlangen-Nürnberg), Tobias Distler (Friedrich-Alexander-Universität Erlangen-Nürnberg) -->
+<!-- _12:00, 15m_ -->
 
 <!-- * **Performance Trade-offs in Transactional Systems** <\!-- 19 -\-> -->
 <!-- Rafael Soares (INESC-ID, Instituto Superior Técnico, Universidade de Lisboa), Luís Rodrigues (INESC-ID, Instituto Superior Técnico, Universidade de Lisboa) -->
-<!-- _12:20, 20m_ -->
+<!-- _12:15, 15m_ -->
 
 <!-- * **Linearizable Low-latency Reads at the Edge** <\!-- 58 -\-> -->
 <!-- Joshua Guarnieri (University of New Hampshire), Aleksey Charapko (University of New Hampshire) -->
-<!-- _12:40, 20m_ -->
+<!-- _12:30, 15m_ -->
 
 <!-- ## Lunch: 13:00 to 14:30 -->
 
@@ -56,40 +56,39 @@ TBA.
 
 <!-- * **A Study of Semantics for CRDT-based Collaborative Spreadsheets** <\!-- 14 -\-> -->
 <!-- Elena Yanakieva (University of Kaiserslautern-Landau), Philipp Bird (University of Kaiserslautern-Landau), Annette Bieniusa (University of Kaiserslautern-Landau) -->
-<!-- _14:30, 20m_ -->
+<!-- _14:30, 15m_ -->
 
 <!-- * **AMC: Towards Trustworthy and Explorable CRDT Applications with the Automerge Model Checker** <\!-- 21 -\-> -->
 <!-- Andrew Jeffery (University of Cambridge), Richard Mortier (University of Cambridge) -->
-<!-- _14:50, 20m_ -->
+<!-- _14:45, 15m_ -->
 
 <!-- * **Towards improved collaborative text editing CRDTs by using Natural Language Processing** <\!-- 74 -\-> -->
 <!-- Jim Bauwens (Vrije Universiteit Brussel), Kevin De Porre (Vrije Universiteit Brussel), Elisa Gonzalez Boix (Vrije Universiteit Brussel) -->
-<!-- _15:10, 20m_ -->
+<!-- _15:00, 15m_ -->
 
 <!-- * **Probabilistic Causal Contexts for Scalable CRDTs** <\!-- 75 -\-> -->
 <!-- Pedro Henrique Fernandes (ProDEI, Universidade do Porto & INESC TEC), Carlos Baquero (Universidade do Porto & INESC TEC) -->
-<!-- _15:30, 20m_ -->
-
-<!-- ## Coffee Break: 16:00 to 16:30 -->
-
-<!-- ## Session 4: 16:30 to 18:30 -->
+<!-- _15:15, 15m_ -->
 
 <!-- * **For-Each Operations in Collaborative Apps** <\!-- 11 -\-> -->
 <!-- Matthew Weidner (Carnegie Mellon University), Ria Pradeep (Carnegie Mellon University), Benito Geordie (Rice University), Heather Miller (Carnegie Mellon University) -->
-<!-- _16:30, 20m_ -->
+<!-- _15:30, 15m_ -->
+
+<!-- ## Coffee Break: 16:00 to 16:30 -->
+
+<!-- ## Session 4: 16:30 to 17:40 -->
 
 <!-- * **On Extend-Only Directed Posets and Derived Byzantine-Tolerant Replicated Data Types** <\!-- 85 -\-> -->
 <!-- Florian Jacob (Karlsruhe Institute of Technology), Hannes Hartenstein (Karlsruhe Institute of Technology) -->
-<!-- _17:10, 20m_ -->
+<!-- _16:30, 15m_ -->
 
 <!-- * **Data Management for mobile applications dependent on geo-located data** <\!-- 92 -\-> -->
-<!-- Nuno M. Santos (NOVA LINCS & NOVA School of Science and Technology), Luís M. Silva (NOVA LINCS & NOVA School of Science and Technology), João Leitão (NOVA LINCS & NOVA School of Science and Technology),Nuno Preguiça (NOVA LINCS & NOVA School of Science and Technology)  -->
-<!-- _17:30, 20m_ -->
+<!-- Nuno M. Santos (NOVA LINCS & NOVA School of Science and Technology), Luís M. Silva (NOVA LINCS & NOVA School of Science and Technology), João Leitão (NOVA LINCS & NOVA School of Science and Technology),Nuno Preguiça (NOVA LINCS & NOVA School of Science and Technology) -->
+<!-- _16:45, 15m_ -->
 
 <!-- * **Test-of-Time Award Ceremony** -->
-<!-- _17:50, 30m_ -->
+<!-- _17:00, 30m_ -->
 
 <!-- * **Closing** -->
 <!-- Elisa Gonzalez Boix, Pierre Sutra -->
-<!-- _18:20, 5m_ -->
-
+<!-- _17:30, 10m_ -->

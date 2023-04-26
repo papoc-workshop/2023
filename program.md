@@ -2,131 +2,92 @@
 title: Program
 ---
 
-TBD
+PaPoC 2023 will take place on May 8th 2023.
+It is an in-person only event, happening in conjunction with the Eurosys 2023 conference.
+The workshop will be located at DIAG - [Dipartimento di Ingegneria Informatica, Automatica e Gestionale Antonio Ruberti](http://www.diag.uniroma1.it//en) (Department of Computer, Control and Management Engineering), Sapienza Università di Roma, Viale Ariosto 25, 00185, Rome, Italy ([see how to reach the conference area](https://2023.eurosys.org/venue.html#reachArea)).
 
-<!-- PaPoC 2023 will take place on April 5th 2023. It is run in hybrid mode with both -->
-<!-- in-person and remote speakers and attendees. All the times are given in CEST. If -->
-<!-- speaking or attending remotely, please use [time zone -->
-<!-- converter](https://www.timeanddate.com/worldclock/converter.html?iso=20230405T063000&p1=1264&p2=136&p3=179&p4=224&p5=248&p6=176&p7=240) -->
-<!-- to find the times in your local time zone. -->
+## Opening & Session 1: 08:30 to 10:30
 
-<!-- ## Opening & Session 1: 08:30 to 09:45 -->
+* **Welcome**
+Elisa Gonzalez Boix, Pierre Sutra
+_09:00, 10m_
 
-<!-- * **Making CRDTs Byzantine Fault Tolerant**   -->
-<!-- Martin Kleppmann (University of Cambridge)   -->
-<!-- _08:30, 25m, in-person_   -->
+* **Keynote**
+Vijay Chidambaram (University of Texas, Austin)
+_08:30, 60m_
 
-<!-- * **Melda: A General Purpose Delta State JSON CRDT**   -->
-<!-- Amos Brocco (University of Applied Sciences and Arts of Southern Switzerland)   -->
-<!-- _08:55, 25m, in-person_   -->
+* **Probabilistic Causal Contexts for Scalable CRDTs** <!-- 75 -->
+Pedro Henrique Fernandes (ProDEI, Universidade do Porto & INESC TEC), Carlos Baquero (Universidade do Porto & INESC TEC)
+_10:10, 20m_
 
-<!-- * **Relaxed Paxos: Quorum intersection revisited (again)**   -->
-<!-- Heidi Howard (University of Cambridge), Richard Mortier (University of Cambridge)   -->
-<!-- _09:20, 25m, remote_   -->
+## Coffee Break: 10:30 to 11:00
 
-<!-- ## Session 2: 10:30 to 12:10 -->
+## Session 2: 11:00 to 13:00
 
-<!-- * **Marrying Replicated and Functional Data Structures**   -->
-<!-- Vimala Soundarapandian (IIT Madras), Adharsh Kamath (NITK Surathkal), Kartik Nagar (IIT Madras), KC Sivaramakrishnan (IIT Madras)   -->
-<!-- _10:30, 25m, remote_   -->
+* **Distributed Consensus Algorithms as Replicated State Applications** <!-- 4 -->
+Nicholas V. Lewchenko (University of Colorado, Boulder), Gowtham Kaki (University of Colorado Boulder)
+_11:00, 20m_
 
-<!-- * **Merge What You Can, Fork What You Can’t: Managing Data Integrity in Local-First Software**   -->
-<!-- Nicholas Schiefer (MIT), Geoffrey Litt (MIT), Daniel Jackson (MIT)   -->
-<!-- _10:55, 25m, in-person_   -->
+* **Trees and Turtles: Modular Abstractions for State Machine Replication Protocols** <!-- 45 -->
+Natalie Neamtu (Microsoft Corporation), Haobin Ni (Cornell University), Robbert van Renesse (Cornell University)
+_11:20, 20m_
 
-<!-- * **Geo-located data for better dynamic replication**   -->
-<!-- Luis Silva (Universidade Nova de Lisboa), Frederico Aleixo (Universidade Nova de Lisboa), Albert Linde (Universidade Nova de Lisboa), João Leitão (Universidade Nova de Lisboa), Nuno Preguica  (Universidade Nova de Lisboa)   -->
-<!-- _11:20, 25m, in-person_   -->
+* **Verify, And Then Trust: Data Inconsistency Detection in ZooKeeper** <!-- 66 -->
+Sushant Mane (San José State University), Fangmin Lyu (Meta), Benjamin Reed (San José State University)
+_11:40, 20m_
 
-<!-- * **Distributed Access Control for Collaborative Applications using CRDTs**   -->
-<!-- Pierre-Antoine Rault (INRIA), Claudia-Lavinia Ignat (INRIA), Olivier Perrin (Université de Lorraine)   -->
-<!-- _11:45, 25m, in-person_   -->
+* **Generic Checkpointing Support for Stream-based State-Machine Replication** <!-- 70 -->
+Laura Lawniczak (Friedrich-Alexander-Universität Erlangen-Nürnberg), Marco Ammon (Friedrich-Alexander-Universität Erlangen-Nürnberg), Tobias Distler (Friedrich-Alexander-Universität Erlangen-Nürnberg) 
+_12:00, 20m_
 
-<!-- ## Session 3: 14:00 to 15:40 -->
+* **Performance Trade-offs in Transactional Systems** <!-- 19 -->
+Rafael Soares (INESC-ID, Instituto Superior Técnico, Universidade de Lisboa), Luís Rodrigues (INESC-ID, Instituto Superior Técnico, Universidade de Lisboa)
+_12:20, 20m_
 
-<!-- * **An Oblivious Observed-Reset Embeddable Replicated Counter**   -->
-<!-- Matthew Weidner (Carnegie Mellon University), Paulo Sérgio Almeida (HASLab/INESC TEC and Universidade do Minho)     -->
-<!-- _14:00, 25m, remote_   -->
+* **Linearizable Low-latency Reads at the Edge** <!-- 58 -->
+Joshua Guarnieri (University of New Hampshire), Aleksey Charapko (University of New Hampshire)
+_12:40, 20m_
 
-<!-- * **Bilateral Anti-Entropy for Eventual Consistency**   -->
-<!-- Rebecca Bilbro (Rotational Labs), Benjamin Bengfort (Rotational Labs), Pete Keleher (University of Maryland, College Park)   -->
-<!-- _14:25, 25m, remote_   -->
+## Lunch: 13:00 to 14:30
 
-<!-- * **Bolt-On Convergence in Replicated Data Types**    -->
-<!-- Gowtham Kaki (University of Colorado Boulder), Prasanth Prahladan (University of Colorado Boulder), Nicholas Lewchenko (University of Colorado Boulder)    -->
-<!-- _14:50, 25m, remote_   -->
+## Session 3: 14:30 to 16:00
 
-<!-- * **Ordering Operations for Generic Replicated Data Types using Version Trees**   -->
-<!-- Nazmus Saquib (University of California, Santa Barbara), Chandra Krintz (University of California, Santa Barbara), Rich Wolski (University of California, Santa Barbara)   -->
-<!-- _15:15, 25m, remote_   -->
+* **A Study of Semantics for CRDT-based Collaborative Spreadsheets** <!-- 14 -->
+Elena Yanakieva (University of Kaiserslautern-Landau), Philipp Bird (University of Kaiserslautern-Landau), Annette Bieniusa (University of Kaiserslautern-Landau)
+_14:30, 20m_
 
-<!-- ## Session 4: 16:30 to 18:30 -->
+* **AMC: Towards Trustworthy and Explorable CRDT Applications with the Automerge Model Checker** <!-- 21 -->
+Andrew Jeffery (University of Cambridge), Richard Mortier (University of Cambridge)
+_14:50, 20m_
 
-<!-- ### Invited Talk 1: Implementing Distributed ACID Transactions Without Atomic Clocks -->
-<!-- **Karthik Ranganathan, CTO, YugaByte**   -->
-<!-- _16:30, 60m, remote_   -->
+* **Towards improved collaborative text editing CRDTs by using Natural Language Processing** <!-- 74 -->
+Jim Bauwens (Vrije Universiteit Brussel), Kevin De Porre (Vrije Universiteit Brussel), Elisa Gonzalez Boix (Vrije Universiteit Brussel)
+_15:10, 20m_
 
-<!-- #### Abstract -->
+* **Probabilistic Causal Contexts for Scalable CRDTs** <!-- 75 -->
+Pedro Henrique Fernandes (ProDEI, Universidade do Porto & INESC TEC), Carlos Baquero (Universidade do Porto & INESC TEC)
+_15:30, 20m_
 
-<!-- ACID transactions are a fundamental building block when developing -->
-<!-- business-critical, user-facing applications. They simplify the complex task of -->
-<!-- ensuring data integrity while supporting highly concurrent operations. While -->
-<!-- they are taken for granted in monolithic SQL databases, most distributed DBs -->
-<!-- would forsake them completely. -->
+## Coffee Break: 16:00 to 16:30
 
-<!-- Fortunately, this is no longer the case. The trend started with Google Spanner, -->
-<!-- which offered distributed transactions using GPS based atomic clocks - unheard -->
-<!-- of in the database world before. Now, distributed transactions - without -->
-<!-- requiring atomic clocks - are offered by distributed SQL databases. One such -->
-<!-- example of a fully open source database offering this is YugabyteDB. Using the -->
-<!-- example of YugabyteDB, this talk will explain how distributed ACID transactions -->
-<!-- can be achieved without atomic clocks - without compromising on performance. -->
+## Session 4: 16:30 to 18:30
 
-<!-- #### Bio -->
+* **For-Each Operations in Collaborative Apps** <!-- 11 -->
+Matthew Weidner (Carnegie Mellon University), Ria Pradeep (Carnegie Mellon University), Benito Geordie (Rice University), Heather Miller (Carnegie Mellon University)
+_16:30, 20m_
 
-<!-- Karthik was one of the original database engineers at Facebook responsible for -->
-<!-- building distributed databases including Cassandra and HBase. He is an Apache -->
-<!-- HBase committer, and also an early contributor to Cassandra, before it was -->
-<!-- open-sourced by Facebook. He is currently the co-founder and CTO of the company -->
-<!-- behind YugabyteDB, a fully open-source distributed SQL database for building -->
-<!-- cloud-native and geo-distributed applications. -->
+* **On Extend-Only Directed Posets and Derived Byzantine-Tolerant Replicated Data Types** <!-- 85 -->
+Florian Jacob (Karlsruhe Institute of Technology), Hannes Hartenstein (Karlsruhe Institute of Technology)
+_17:10, 20m_
 
-<!-- ### Invited Talk 2: A Programmable Cloud: CALM Foundations and Open Challenges -->
-<!-- **Joseph M. Hellerstein, Professor, UC Berkeley**   -->
-<!-- _17:30, 60m, remote_   -->
+* **Data Management for mobile applications dependent on geo-located data** <!-- 92 -->
+Nuno M. Santos (NOVA LINCS & NOVA School of Science and Technology), Luís M. Silva (NOVA LINCS & NOVA School of Science and Technology), João Leitão (NOVA LINCS & NOVA School of Science and Technology),Nuno Preguiça (NOVA LINCS & NOVA School of Science and Technology) 
+_17:30, 20m_
 
-<!-- #### Abstract -->
+* **Test-of-Time Award Ceremony**
+_17:50, 30m_
 
-<!-- The public cloud emerged a decade ago, yet distributed systems are still -->
-<!-- programmed using models from sequential computing. All the traditional -->
-<!-- challenges of distributed programming and data are still present in the cloud, -->
-<!-- only they are now faced by the general population of software developers. Added -->
-<!-- to these challenges are new desires for "serverless" computing, including -->
-<!-- consumption-based pricing and autoscaling. -->
- 
-<!-- This talk will highlight principles for cloud programming that I have explored -->
-<!-- with colleagues over the past decade, including the CALM Theorem and languages -->
-<!-- like Dedalus and Bloom that encourage monotonic coordination-free consistency -->
-<!-- via logic and lattices. The Anna "any-scale" KVS will be presented as a petri -->
-<!-- dish for the potential of these ideas and many remaining challenges.  -->
+* **Closing**
+Elisa Gonzalez Boix, Pierre Sutra
+_18:20, 5m_
 
-<!-- I will conclude by overviewing new work in the Hydro project, which is aimed at -->
-<!-- bringing research ideas to programmers in an practical, evolutionary fashion. -->
-<!-- Key to our approach is a separation of distributed programs into a PACT of four -->
-<!-- facets: Program semantics, Availablity, Consistency and Trust. We propose to -->
-<!-- migrate developers gradually to PACT programming by lifting familiar code into -->
-<!-- our more declarative level of abstraction. This agenda raises challenges across -->
-<!-- multiple areas including language design, query optimization, transactions, -->
-<!-- distributed consistency, compilers and program synthesis. -->
-
-<!-- #### Bio  -->
-
-<!-- Joe Hellerstein is the Jim Gray Professor of Computer Science at the University -->
-<!-- of California, Berkeley. His research focuses on data-centric systems and the -->
-<!-- way they drive computing. Hellerstein is an ACM Fellow, a Sloan Research Fellow -->
-<!-- and the recipient of three ACM-SIGMOD Test of Time awards. In 2010, MIT's -->
-<!-- Technology Review magazine included his work on cloud programming in their TR10 -->
-<!-- list of the 10 technologies "most likely to change our world". In addition to -->
-<!-- his academic work, Hellerstein has been involved in a number of startup -->
-<!-- companies including Trifacta, which brought academic research on data wrangling -->
-<!-- to market. -->

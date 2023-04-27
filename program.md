@@ -63,7 +63,7 @@ _14:50, 20m_
 Jim Bauwens _(Vrije Universiteit Brussel)_, Kevin De Porre _(Vrije Universiteit Brussel)_, Elisa Gonzalez Boix _(Vrije Universiteit Brussel)_  
 _15:10, 20m_
 
-* **TopoloTree: From O_(n)_ to O_(1)_ CRDT Memory Consumption Via Aggregation Tree Gossip Topologies** <!-- 79 -->  
+* **TopoloTree: From O(n) to O(1) CRDT Memory Consumption Via Aggregation Tree Gossip Topologies** <!-- 79 -->  
 Conor Power _(University of California, Berkeley)_, Shadaj Laddad _(University of California, Berkeley)_, Chris Douglas _(University of California, Berkeley)_, Joseph M. Hellerstein _(University of California, Berkeley)_, Dan Suciu _(University of Washington)_  
 _15:30, 20m_
 	

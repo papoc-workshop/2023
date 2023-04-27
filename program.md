@@ -11,78 +11,78 @@ It is an in-person only event, happening in conjunction with the EuroSys 2023 co
 * **Welcome**
 _09:00, 5m_
 
-* **Keynote**
-Vijay Chidambaram (University of Texas, Austin)
+* **Keynote**  
+Vijay Chidambaram (University of Texas, Austin)  
 _09:05, 60m_
 
-* **Probabilistic Causal Contexts for Scalable CRDTs** <!-- 75 -->
-Pedro Henrique Fernandes (ProDEI, Universidade do Porto & INESC TEC), Carlos Baquero (Universidade do Porto & INESC TEC)
+* **Probabilistic Causal Contexts for Scalable CRDTs** <!-- 75 -->  
+Pedro Henrique Fernandes (ProDEI, Universidade do Porto & INESC TEC), Carlos Baquero (Universidade do Porto & INESC TEC)  
 _10:05, 20m_
 
 ## Coffee Break: 10:30 to 11:00
 
 ## Session 2: 11:00 to 13:00
 
-* **Distributed Consensus Algorithms as Replicated State Applications** <!-- 4 -->
-Nicholas V. Lewchenko (University of Colorado, Boulder), Gowtham Kaki (University of Colorado Boulder)
+* **Distributed Consensus Algorithms as Replicated State Applications** <!-- 4 -->  
+Nicholas V. Lewchenko (University of Colorado, Boulder), Gowtham Kaki (University of Colorado Boulder)  
 _11:00, 20m_
 
-* **Trees and Turtles: Modular Abstractions for State Machine Replication Protocols** <!-- 45 -->
-Natalie Neamtu (Microsoft Corporation), Haobin Ni (Cornell University), Robbert van Renesse (Cornell University)
+* **Trees and Turtles: Modular Abstractions for State Machine Replication Protocols** <!-- 45 -->  
+Natalie Neamtu (Microsoft Corporation), Haobin Ni (Cornell University), Robbert van Renesse (Cornell University)  
 _11:20, 20m_
 
-* **Verify, And Then Trust: Data Inconsistency Detection in ZooKeeper** <!-- 66 -->
-Sushant Mane (San José State University), Fangmin Lyu (Meta), Benjamin Reed (San José State University)
+* **Verify, And Then Trust: Data Inconsistency Detection in ZooKeeper** <!-- 66 -->  
+Sushant Mane (San José State University), Fangmin Lyu (Meta), Benjamin Reed (San José State University)  
 _11:40, 20m_
 
-* **Generic Checkpointing Support for Stream-based State-Machine Replication** <!-- 70 -->
-Laura Lawniczak (Friedrich-Alexander-Universität Erlangen-Nürnberg), Marco Ammon (Friedrich-Alexander-Universität Erlangen-Nürnberg), Tobias Distler (Friedrich-Alexander-Universität Erlangen-Nürnberg)
+* **Generic Checkpointing Support for Stream-based State-Machine Replication** <!-- 70 -->  
+Laura Lawniczak (Friedrich-Alexander-Universität Erlangen-Nürnberg), Marco Ammon (Friedrich-Alexander-Universität Erlangen-Nürnberg), Tobias Distler (Friedrich-Alexander-Universität Erlangen-Nürnberg)  
 _12:00, 20m_
 
-* **Performance Trade-offs in Transactional Systems** <!-- 19 -->
-Rafael Soares (INESC-ID, Instituto Superior Técnico, Universidade de Lisboa), Luís Rodrigues (INESC-ID, Instituto Superior Técnico, Universidade de Lisboa)
+* **Performance Trade-offs in Transactional Systems** <!-- 19 -->  
+Rafael Soares (INESC-ID, Instituto Superior Técnico, Universidade de Lisboa), Luís Rodrigues (INESC-ID, Instituto Superior Técnico, Universidade de Lisboa)  
 _12:20, 20m_
 
-* **Linearizable Low-latency Reads at the Edge** <!-- 58 -->
-Joshua Guarnieri (University of New Hampshire), Aleksey Charapko (University of New Hampshire)
+* **Linearizable Low-latency Reads at the Edge** <!-- 58 -->  
+Joshua Guarnieri (University of New Hampshire), Aleksey Charapko (University of New Hampshire)  
 _12:40, 20m_
 
 ## Lunch: 13:00 to 14:30
 
 ## Session 3: 14:30 to 16:00
 
-* **A Study of Semantics for CRDT-based Collaborative Spreadsheets** <!-- 14 -->
-Elena Yanakieva (University of Kaiserslautern-Landau), Philipp Bird (University of Kaiserslautern-Landau), Annette Bieniusa (University of Kaiserslautern-Landau)
+* **A Study of Semantics for CRDT-based Collaborative Spreadsheets** <!-- 14 -->  
+Elena Yanakieva (University of Kaiserslautern-Landau), Philipp Bird (University of Kaiserslautern-Landau), Annette Bieniusa (University of Kaiserslautern-Landau)  
 _14:30, 20m_
 
-* **AMC: Towards Trustworthy and Explorable CRDT Applications with the Automerge Model Checker** <!-- 21 -->
-Andrew Jeffery (University of Cambridge), Richard Mortier (University of Cambridge)
+* **AMC: Towards Trustworthy and Explorable CRDT Applications with the Automerge Model Checker** <!-- 21 -->  
+Andrew Jeffery (University of Cambridge), Richard Mortier (University of Cambridge)  
 _14:50, 20m_
 
-* **Towards improved collaborative text editing CRDTs by using Natural Language Processing** <!-- 74 -->
-Jim Bauwens (Vrije Universiteit Brussel), Kevin De Porre (Vrije Universiteit Brussel), Elisa Gonzalez Boix (Vrije Universiteit Brussel)
+* **Towards improved collaborative text editing CRDTs by using Natural Language Processing** <!-- 74 -->  
+Jim Bauwens (Vrije Universiteit Brussel), Kevin De Porre (Vrije Universiteit Brussel), Elisa Gonzalez Boix (Vrije Universiteit Brussel)  
 _15:10, 20m_
 
-* **TopoloTree: From O(n) to O(1) CRDT Memory Consumption Via Aggregation Tree Gossip Topologies** <!-- 79 -->
-Conor Power (University of California, Berkeley), Shadaj Laddad (University of California, Berkeley), Chris Douglas (University of California, Berkeley), Joseph M. Hellerstein (University of California, Berkeley), Dan Suciu (University of Washington)
+* **TopoloTree: From O(n) to O(1) CRDT Memory Consumption Via Aggregation Tree Gossip Topologies** <!-- 79 -->  
+Conor Power (University of California, Berkeley), Shadaj Laddad (University of California, Berkeley), Chris Douglas (University of California, Berkeley), Joseph M. Hellerstein (University of California, Berkeley), Dan Suciu (University of Washington)  
 _15:30, 20m_
 	
 ## Coffee Break: 16:00 to 16:30
 
 ## Session 4: 16:30 to 17:40
 
-* **For-Each Operations in Collaborative Apps** <!-- 11 -->
-Matthew Weidner (Carnegie Mellon University), Ria Pradeep (Carnegie Mellon University), Benito Geordie (Rice University), Heather Miller (Carnegie Mellon University)
+* **For-Each Operations in Collaborative Apps** <!-- 11 -->  
+Matthew Weidner (Carnegie Mellon University), Ria Pradeep (Carnegie Mellon University), Benito Geordie (Rice University), Heather Miller (Carnegie Mellon University)  
 _16:30, 20m_
 
-* **On Extend-Only Directed Posets and Derived Byzantine-Tolerant Replicated Data Types** <!-- 85 -->
-Florian Jacob (Karlsruhe Institute of Technology), Hannes Hartenstein (Karlsruhe Institute of Technology)
+* **On Extend-Only Directed Posets and Derived Byzantine-Tolerant Replicated Data Types** <!-- 85 -->  
+Florian Jacob (Karlsruhe Institute of Technology), Hannes Hartenstein (Karlsruhe Institute of Technology)  
 _16:50, 20m_
 
-* **Data Management for mobile applications dependent on geo-located data** <!-- 92 -->
-Nuno M. Santos (NOVA LINCS & NOVA School of Science and Technology), Luís M. Silva (NOVA LINCS & NOVA School of Science and Technology), João Leitão (NOVA LINCS & NOVA School of Science and Technology),Nuno Preguiça (NOVA LINCS & NOVA School of Science and Technology)
+* **Data Management for mobile applications dependent on geo-located data** <!-- 92 -->  
+Nuno M. Santos (NOVA LINCS & NOVA School of Science and Technology), Luís M. Silva (NOVA LINCS & NOVA School of Science and Technology), João Leitão (NOVA LINCS & NOVA School of Science and Technology),Nuno Preguiça (NOVA LINCS & NOVA School of Science and Technology)  
 _17:10, 20m_
 
-* **Test-of-Time Award Ceremony and Closing**
+* **Test-of-Time Award Ceremony and Closing**  
 _17:30, 30m_
 

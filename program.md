@@ -8,7 +8,7 @@ It is an in-person only event, happening in conjunction with the EuroSys 2023 co
 
 ## Opening & Session 1: 09:00 to 10:30
 
-* **Welcome**
+* **Welcome**  
 _09:00, 5m_
 
 * **Keynote**  

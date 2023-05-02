@@ -23,8 +23,8 @@ _10:05, 20 min_
 
 ## Session 2: 11:00 to 13:00
 
-* **Distributed Consensus Algorithms as Replicated State Applications** <!-- 4 -->  
-Nicholas V. Lewchenko _(University of Colorado, Boulder)_, Gowtham Kaki _(University of Colorado Boulder)_  
+* **On Extend-Only Directed Posets and Derived Byzantine-Tolerant Replicated Data Types** <!-- 85 -->  
+Florian Jacob _(Karlsruhe Institute of Technology)_, Hannes Hartenstein _(Karlsruhe Institute of Technology)_  
 _11:00, 20 min_
 
 * **Trees and Turtles: Modular Abstractions for State Machine Replication Protocols** <!-- 45 -->  
@@ -75,8 +75,8 @@ _15:30, 20 min_
 Matthew Weidner _(Carnegie Mellon University)_, Ria Pradeep _(Carnegie Mellon University)_, Benito Geordie _(Rice University)_, Heather Miller _(Carnegie Mellon University)_  
 _16:30, 20 min_
 
-* **On Extend-Only Directed Posets and Derived Byzantine-Tolerant Replicated Data Types** <!-- 85 -->  
-Florian Jacob _(Karlsruhe Institute of Technology)_, Hannes Hartenstein _(Karlsruhe Institute of Technology)_  
+* **Distributed Consensus Algorithms as Replicated State Applications** <!-- 4 -->  
+Nicholas V. Lewchenko _(University of Colorado, Boulder)_, Gowtham Kaki _(University of Colorado Boulder)_  
 _16:50, 20 min_
 
 * **Data Management for mobile applications dependent on geo-located data** <!-- 92 -->  

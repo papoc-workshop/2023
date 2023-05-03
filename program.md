@@ -23,7 +23,7 @@ _09:05, 60 min_
 
 * **Probabilistic Causal Contexts for Scalable CRDTs** <!-- 75 -->  
 Pedro Henrique Fernandes _(ProDEI, Universidade do Porto & INESC TEC)_, Carlos Baquero _(Universidade do Porto & INESC TEC)_  
-_10:05, 20 min_ [paper](https://dl.acm.org/doi/10.1145/3578358.3591331)
+_10:05, 20 min_, [paper](https://dl.acm.org/doi/10.1145/3578358.3591331)
 
 ## Coffee Break: 10:30 to 11:00
 

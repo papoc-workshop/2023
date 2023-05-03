@@ -11,9 +11,17 @@ It is an in-person only event, happening in conjunction with the EuroSys 2023 co
 * **Welcome**  
 _09:00, 5 min_
 
-* **Keynote**  
+* **Keynote: Building Data Systems for Persistent Memory**  
 Vijay Chidambaram _(University of Texas, Austin)_  
 _09:05, 60 min_
+
+#### Abstract
+
+Persistent memory provides storage that is low latency and high bandwidth. However, the same features that make persistent memory so appealing also make it challenging to build data systems that effectively utilize persistent memory. In this talk, I'll talk about my group's experiences building a variety of data systems for persistent memory, ranging from single-node key-value stores to file systems and disaggregated key-value stores. I'll share common challenges and lessons learnt from these projects, and present some open challenges that need to be solved to fully utilize persistent memory in the future. 
+
+#### Bio 
+
+Vijay Chidambaram is an Associate Professor in the Computer Science department at the University of Texas at Austin. He did his post-doc at the VMware Research Group, and got his PhD with Prof. Remzi and Andrea Arpaci-Dusseau at the University of Wisconsin-Madison. His papers have won Best Paper Awards in ATC 2018, FAST 2018, and FAST 2017. He was awarded the NSF CAREER Award in 2018, SIGOPS Dennis M. Ritchie Dissertation Award in 2016, and the Microsoft Research Fellowship in 2014. Techniques from his work have been incorporated into commercial products, and his work has helped make the Linux kernel more reliable.
 
 * **Probabilistic Causal Contexts for Scalable CRDTs** <!-- 75 -->  
 Pedro Henrique Fernandes _(ProDEI, Universidade do Porto & INESC TEC)_, Carlos Baquero _(Universidade do Porto & INESC TEC)_  

@@ -93,5 +93,5 @@ _17:10, 20 min_, [paper](https://dl.acm.org/doi/10.1145/3578358.3591334)
 * **Test-of-Time Award Ceremony and Closing**  
 _17:30, 30 min_
 
-> The following paper is awarded the Test-of-Time Award for the tenth edition of the PaPoC workshop series:
+> The following [paper](http://www.bailis.org/blog/bridging-the-gap-opportunities-in-coordination-avoiding-databases/) is awarded the Test-of-Time Award for the tenth edition of the PaPoC workshop series:
 > Bridging the Gap: Opportunities in Coordination-Avoiding Database Systems, _by Peter Bailis, Alan Fekete, Ali Ghodsi, Mike Franklin, Joe Hellerstein, and Ion Stoica._

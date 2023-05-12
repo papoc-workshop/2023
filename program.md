@@ -91,7 +91,8 @@ Nuno M. Santos _(NOVA LINCS & NOVA School of Science and Technology)_, Luís M. 
 _17:10, 20 min_, [paper](https://dl.acm.org/doi/10.1145/3578358.3591334)
 
 * **Test-of-Time Award Ceremony and Closing**  
-_17:30, 30 min_
+_17:30, 30 min_ [slides](https://docs.google.com/presentation/d/106mPgBYqpMb36SBT-SsBbpSfzhZLPq7-KjW7jm4H1v0/edit#slide=id.p)
 
 > The following [paper](http://www.bailis.org/blog/bridging-the-gap-opportunities-in-coordination-avoiding-databases/) is awarded the Test-of-Time Award for the tenth edition of the PaPoC workshop series:
 > Bridging the Gap: Opportunities in Coordination-Avoiding Database Systems, _by Peter Bailis, Alan Fekete, Ali Ghodsi, Mike Franklin, Joe Hellerstein, and Ion Stoica._
+
